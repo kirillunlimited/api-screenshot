@@ -4,6 +4,8 @@
 
 A runtime service to use live website screenshots on your site.
 
+ℹ️ This fork was made to handle screenshot images on https://personalsit.es.
+
 Read the [Blog post: Building an Automated Screenshot Service on Netlify in ~140 Lines of Code](https://www.zachleat.com/web/screenshots/).
 
 ## Deploy
@@ -32,6 +34,7 @@ Image URLs have the formats:
     * `aspectratio` of `9:16` is not supported (throws an error)
   * `opengraph`: always 1200×630, works with `zoom`
     * `aspectratio` is ignored (no errors thrown)
+  * `600-350`: custom size for https://personalsit.es cards
 * Valid `aspectratio` values:
   * `1:1` (default)
   * `9:16`

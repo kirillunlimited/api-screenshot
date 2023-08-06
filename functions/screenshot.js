@@ -164,6 +164,8 @@ async function handler(event, context) {
     } else {
       viewport = [1200, 630];
     }
+  } else if(size === 'card') {
+    viewport = [600, 350];
   }
 
   url = decodeURIComponent(url);
